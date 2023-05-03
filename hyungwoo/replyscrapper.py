@@ -7,9 +7,6 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.keys import Keys
 import time
-import pandas as pd
-from collections import Counter
-from konlpy.tag import Hannanum
 
 def window_size_to_thin(driver):
     driver.maximize_window()
@@ -59,9 +56,6 @@ class Commentary():
         # scroll_once 실행 횟수
         self.MAX_SCROLL_TIME = scroll
 
-        # konlpy쓰고 출력문 정할 때 필요했던것
-        # self.MOST = most
-
         self.driver = driver
         self.url = url
         self.title = ""
@@ -77,21 +71,20 @@ class Commentary():
             self.count_of_view = self.get_count_of_views()
             self.scroll_once()
             time.sleep(3)
-            if driver.find_elements(By.XPATH,'//*[@id="message"]')!=[]:
+            # if len(driver.find_elements(By.XPATH,'//*[@id="message"]'))==0:
+            try:
                 self.count_of_comment = self.get_count_of_comments()
 
                 print("get_comments..", end=" ")
                 print(self.count_of_comment)
-                try:
-                    elements = self.get_elements()
-                    self.comments = self.elements_to_comments(elements)
-                except Exception as e:
-                    print("Error:",e)
+                elements = self.get_elements()
+                self.comments = self.elements_to_comments(elements)
 
                 self.count_of_crawled = len(self.comments)
                 # print("get_frequency..", end=" ")
                 # self.comment_frequency = self.get_frequency_for_comments()
-            else:
+            except:
+                print("댓글이 사용 중지되었습니다.")
                 self.comments = ["댓글이 사용 중지되었습니다."]
         self.driver = None
 
@@ -106,29 +99,6 @@ class Commentary():
 
         return "{} 조회수 ({}), 댓글수 ({}), 샘플링수 ({}):\ncomments:\n{}"\
                 .format(title, views, count_of_comment, crawled, "\n".join(comments))
-
-    # konlpy까지 할 경우
-    # def __str__(self):
-    #     if self.url=="":
-    #         return None
-    #     title = self.title
-    #     comments = self.count_of_comment_all
-    #     views = self.count_of_view
-    #     count = self.count_of_comment
-    #     top_comments = self.comments[:3]
-    #     # most_nouns = self.top_n(self.MOST)
-    #     return "{} 조회수 ({}), 댓글 수 ({}), 수집한 댓글 ({}),:\ncomments:\n{}\nmost {} nouns:\n{}"\
-    #         .format(title, views, comments, count, top_comments, self.MOST, most_nouns)
-
-    # konlpy까지 할 경우
-    # def is_instance(self):
-    #     return (self.title!="" and self.url!="" and len(self.comments)!=0)
-
-    # konlpy까지 할 경우
-    # def top_n(self, n):
-    #     if not self.is_instance():
-    #         return None
-    #     return self.comment_frequency.most_common(n)
 
     def deo_bogi(self):
         '''
@@ -160,47 +130,15 @@ class Commentary():
         tmp = tmp.replace(",", "")
         return int(tmp)
 
-    # konlpy까지 할 경우
-    # def get_frequency_for_comments(self):
-    #     if not self.is_instance():
-    #         return None
-    #     hannanum = Hannanum()
-    #     print(len(self.comments))
-    #     nouns_all = []
-    #     for comment in self.comments:
-    #         nouns = hannanum.nouns(comment)
-    #         nouns_all.extend([noun for noun in nouns if (len(noun)>1 and "ㅋㅋ"not in noun and "ㅎㅎ"not in noun)])
-    #     return Counter(nouns_all)
-
     def scroll_once(self):
         '''
         스크롤 한번 밑으로 내리기
-        :return: 
+        :return:
         '''
         # 바닥까지 스크롤링 방법 두개
         self.driver.find_element(By.TAG_NAME, "body").send_keys("\ue010")
         # self.driver.execute_script("window.scrollTo(0, document.documentElement.scrollHeight);")
         time.sleep(self.SCROLL_WAIT_TIME)
-
-    # def scroll_down(self):
-    #     '''
-    #     self.MAX_SCROLL_TIME 횟수대로 페이지 내림
-    #     대기시간 self.SCROLL_WAIT_TIME
-    #     0이면 바닥까지
-    #     :return:
-    #     '''
-    #     if not self.driver:
-    #         return
-    #
-    #     scrolling = self.MAX_SCROLL_TIME
-    #     last_height = 0
-    #     while 1:
-    #         scrolling -= 1
-    #         self.scroll_once()
-    #         now_height = self.driver.execute_script("return document.documentElement.scrollHeight")
-    #         if now_height == last_height or scrolling==0:
-    #             break
-    #         last_height = now_height
 
     def preprocess_comment_elements(self,elements):
         '''
@@ -215,6 +153,7 @@ class Commentary():
                 .replace("𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭", "playlist") \
                 .replace("\n", " ") \
                 .replace("\t", " ") \
+                .replace("\r", " ") \
                 .strip()
             comments.append(comment)
         return comments
@@ -229,19 +168,17 @@ class Commentary():
 
         scrolling = self.MAX_SCROLL_TIME
         last_height = 0
-        # elements = []
+        elements = []
         while 1:
             scrolling -= 1
             self.scroll_once()
-            # element = self.driver.find_elements(By.ID, "content-text")
+            element = self.driver.find_elements(By.ID, "content-text")
             # print(len(element))
-            # elements.append(element)
+            elements.append(element)
             now_height = self.driver.execute_script("return document.documentElement.scrollHeight")
             if now_height == last_height or scrolling==0:
                 break
             last_height = now_height
-        # 위 주석 4개 풀면 스크롤당, 얘는 한번에
-        elements = [self.driver.find_elements(By.ID, "content-text")]
         return elements
 
     def elements_to_comments(self, elements):
