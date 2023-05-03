@@ -1,0 +1,44 @@
+
+{'author': 'Kim Taehyung', 'timestamp': 1683036541.246472, 'comment': 'ДАВАЙТЕ ПОКАЖЕМ, НАСКОЛЬКО СИЛЬНО МЫ ЛЮБИМ И ПОДДЕРЖИВАЕМ LE SSERAFIM!!!'}
+{'author': 'коты', 'timestamp': 1683043741.246472, 'comment': 'Я уверена, что мы сможем набрать больше 30млн за этот день!! !! ♡♡'}
+{'author': '5.12k subs challenge with 0 video', 'timestamp': 1683040141.246472, 'comment': 'ДАВАЙТЕ ПОДДЕРЖИМ НАШИХ LE SSERAFIM!!! Они этого заслуживают!!!'}
+{'author': 'TWICE', 'timestamp': 1683043741.246472, 'comment': '¿Quién apoyará a LE SSERAFIM para siempre?\n️'}
+{'author': '5.12k subs challenge with 0 video', 'timestamp': 1683040141.246472, 'comment': '18M за сутки!!! фирнот, мы большие молодцы, не расходимся и активно продолжаем стримить!!'}
+{'author': '5.12k subs challenge with 0 video', 'timestamp': 1683040141.246472, 'comment': 'ФИРНОТ, ДАВАЙТЕ ПОДДЕРЖИМ НАШИХ ДЕВОЧЕК КАКТОЛЬКО МОЖЕМ!!'}
+{'author': 'AshenFountain', 'timestamp': 1683047341.246472, 'comment': 'THIS IS GOING TO BE A HIT 100%'}
+{'author': '5.12k subs challenge with 0 video', 'timestamp': 1683040141.246472, 'comment': 'Фиммис.. Словами не передать, как сильно я вас люблю.. Мы пройдем через все тернистые пути. Мы,Фирнот, всегда с вами. Пожалуйста, поддерживайте Фиммис изо всех сил. ФАЙТИНГ!'}
+{'author': 'коты', 'timestamp': 1683043741.246472, 'comment': 'Ого у девочек уже 1млн лайков за сутки!!!!! Дальше больше!!! ♡♡♡'}
+{'author': 'Byul Oh', 'timestamp': 1683029341.246472, 'comment': 'No solo se supero con creces la meta establecida tambien rompieron el record de Fearless y ahora es su MV mas visto en 24hrs con 18M \n\nFelicidades a Lesserafim y Fearnot y sigamos rompiendo records'}
+{'author': 'Sadia mehejabin Shikha', 'timestamp': 1683043741.246472, 'comment': '1M ️\n2M ️\n3M ️\n4M ️'}
+{'author': '', 'timestamp': 1683047341.246472, 'comment': 'STUNNING, BEYOND TALENTED, BEYOND GORGEOUS'}
+{'author': 'chae winter', 'timestamp': 1683036541.246472, 'comment': 'UNFORGIVEN WILL BE REMEMBERED AS A LEGENDARY COMEBACK\n\nHighest 1st day sales by a female group on Hanteo history on their first anniversary as a group!!'}
+{'author': 'blueming', 'timestamp': 1683036541.246472, 'comment': 'Essa cena da yunjin atirando a flecha 1:18 e essa cena da kazuha arrancando a asa 1:33 é tão incrível, icônico é UAU  ...q obra de arte '}
+{'author': 'Kim Taehyung', 'timestamp': 1683036651.936642, 'comment': 'ДАВАЙТЕ ПОКАЖЕМ, НАСКОЛЬКО СИЛЬНО МЫ ЛЮБИМ И ПОДДЕРЖИВАЕМ LE SSERAFIM!!!'}
+{'author': 'коты', 'timestamp': 1683043851.936642, 'comment': 'Я уверена, что мы сможем набрать больше 30млн за этот день!! !! ♡♡'}
+{'author': '5.12k subs challenge with 0 video', 'timestamp': 1683040251.936642, 'comment': 'ДАВАЙТЕ ПОДДЕРЖИМ НАШИХ LE SSERAFIM!!! Они этого заслуживают!!!'}
+{'author': 'TWICE', 'timestamp': 1683043851.936642, 'comment': '¿Quién apoyará a LE SSERAFIM para siempre?\n️'}
+{'author': '5.12k subs challenge with 0 video', 'timestamp': 1683040251.936642, 'comment': '18M за сутки!!! фирнот, мы большие молодцы, не расходимся и активно продолжаем стримить!!'}
+{'author': '5.12k subs challenge with 0 video', 'timestamp': 1683040251.936642, 'comment': 'ФИРНОТ, ДАВАЙТЕ ПОДДЕРЖИМ НАШИХ ДЕВОЧЕК КАКТОЛЬКО МОЖЕМ!!'}
+{'author': 'AshenFountain', 'timestamp': 1683047451.936642, 'comment': 'THIS IS GOING TO BE A HIT 100%'}
+{'author': '5.12k subs challenge with 0 video', 'timestamp': 1683040251.936642, 'comment': 'Фиммис.. Словами не передать, как сильно я вас люблю.. Мы пройдем через все тернистые пути. Мы,Фирнот, всегда с вами. Пожалуйста, поддерживайте Фиммис изо всех сил. ФАЙТИНГ!'}
+{'author': 'коты', 'timestamp': 1683043851.936642, 'comment': 'Ого у девочек уже 1млн лайков за сутки!!!!! Дальше больше!!! ♡♡♡'}
+{'author': 'Byul Oh', 'timestamp': 1683029451.936642, 'comment': 'No solo se supero con creces la meta establecida tambien rompieron el record de Fearless y ahora es su MV mas visto en 24hrs con 18M \n\nFelicidades a Lesserafim y Fearnot y sigamos rompiendo records'}
+{'author': 'Sadia mehejabin Shikha', 'timestamp': 1683043851.936642, 'comment': '1M ️\n2M ️\n3M ️\n4M ️'}
+{'author': '', 'timestamp': 1683047451.936642, 'comment': 'STUNNING, BEYOND TALENTED, BEYOND GORGEOUS'}
+{'author': 'chae winter', 'timestamp': 1683036651.936642, 'comment': 'UNFORGIVEN WILL BE REMEMBERED AS A LEGENDARY COMEBACK\n\nHighest 1st day sales by a female group on Hanteo history on their first anniversary as a group!!'}
+{'author': 'blueming', 'timestamp': 1683036651.936642, 'comment': 'Essa cena da yunjin atirando a flecha 1:18 e essa cena da kazuha arrancando a asa 1:33 é tão incrível, icônico é UAU  ...q obra de arte '}
+{'author': 'Sara Arevalo', 'timestamp': 1683036651.936642, 'comment': 'Vamos por 5 millones de vistas más ️ FEARNOTS \U0001f979'}
+{'author': 'Jasmine Caranto', 'timestamp': 1683047465.916766, 'comment': 'being a Carat was the best decision I ever made. You all make me soo happy knowing so many great people support Seventeen !!'}
+{'author': 'haochen', 'timestamp': 1683007865.916766, 'comment': 'Luchemos Caratdeul. Transm1t9m0s adecuadamente y con constancia. SEVENTEEN se merece mas reconocimiento , su musica y todo están otro nivel . Espero que mas personas sientan lo maravilloso que es ser parte.'}
+{'author': 'hanning _', 'timestamp': 1683015065.916766, 'comment': "Seventeen leading themselves to the next level again!!!! CARAT derr~~ Let's fighting for 50M!!!"}
+{'author': '17caratYTsquad', 'timestamp': 1683036665.916766, 'comment': 'Thank you everyone for working hard! Yesterday was tough but we stuck together and kept going despite the obstacles—such a beautiful sight!'}
+{'author': 'Evilly Cavalcante', 'timestamp': 1683036665.916766, 'comment': 'vamos mostrar nosso carinho ao seventeen. partiu 50M!!'}
+{'author': 'julia', 'timestamp': 1683043865.916766, 'comment': 'vamos tentar chegar nos 60M até o final de semana, carats! não desanimem '}
+{'author': 'jeonghan supremacist', 'timestamp': 1683047465.916766, 'comment': 'when jeonghan suddenly did a rap i almost passed out'}
+{'author': 'Thu An Nguyễn Lâm', 'timestamp': 1683011465.916766, 'comment': 'Another HIT song, thank you Woozi'}
+{'author': 'Love, Dee', 'timestamp': 1683025865.916766, 'comment': "jeonghan's say say say say and woozi's ping hago bul nawa ener-energy lines are so powerful its been stuck in my head since the day it was released"}
+{'author': 'se*ven*teen*2*4*7💙', 'timestamp': 1683040265.916766, 'comment': 'CARATS NÃO DESISTAM E SEMPRE TENTEM ASSISTIR ESSE MV AO MENOS 2 OU 3X NA SEMANA SE NÃO TIVER MUITO TEMPO'}
+{'author': 'Khalida Farooq', 'timestamp': 1683033065.916766, 'comment': '"We only come if we are confident" - SEVENTEEN let\'s win those awards for them....they deserve it'}
+{'author': 'Michael The one', 'timestamp': 1683033065.916766, 'comment': '50 million views almost complete. Our boys deserve more than this we can do this carats FIGHTING!!!!!!!'}
+{'author': 'yenacci', 'timestamp': 1683047465.916766, 'comment': "what i love with seventeen is they'll never produce music based on what's the trend but they'll give us the music that they truly want to represent them. that's on our versatile kingsss!"}
+{'author': 'xikers BOSS BABY YECHAN', 'timestamp': 1683015065.916766, 'comment': "Not a Carat but I'm happy to see Seventeen achieving great things and getting the recognition and popularity they deserve. All their hard work totally paid off and I hope they even get more successful in the future too. As for now, I just can't stop listening to this song. This is a total bop. Thank you SEVENTEEN <3"}
