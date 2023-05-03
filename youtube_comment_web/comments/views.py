@@ -1,5 +1,7 @@
-from django.http import HttpResponse
-
+from .models import *
+from django.shortcuts import render
 
 def index(request):
-    return HttpResponse("Hello, world. You're at the polls index.")
+    all_video = Video.objects.all()
+    context = {'first_video': all_video[0].data}
+    return render(request, 'polls/index.html', context)
