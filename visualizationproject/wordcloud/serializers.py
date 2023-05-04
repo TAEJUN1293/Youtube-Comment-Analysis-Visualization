@@ -18,6 +18,22 @@ class CommentSerializer(serializers.ModelSerializer):
         model = Comment
         fields = '__all__'
 
+
+class TagSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Tag
+        fields = '__all__'
+
+
 class TrendingSerializer(serializers.ModelSerializer):
-    category = CategorySerializer(read_only=True, many=True)
-    video = VideoSerializer(read_only=True, many=True)
+    # category = CategorySerializer(read_only=True, many=True)
+    # video = VideoSerializer(read_only=True, many=True)
+    class Meta:
+            model = Trending
+            fields = '__all__'
+
+
+class WordCloudSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = WordCloud
+        fields = '__all__'
