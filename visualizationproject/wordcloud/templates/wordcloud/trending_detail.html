@@ -1,0 +1,10 @@
+<h1>인기 급상승 > {category}</h1>
+{% if videos %}
+<ul>
+    {% for video in videos %}
+        <li>{{video.title}}</li>
+    {% endfor %}
+</ul>
+{% else %}
+<p>no videos</p>
+{% endif %}

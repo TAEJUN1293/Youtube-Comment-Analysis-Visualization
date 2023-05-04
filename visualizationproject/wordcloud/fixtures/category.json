@@ -1,0 +1,34 @@
+[
+    {
+        "model": "wordcloud.category",
+        "pk": "recent",
+        "fields": {
+            "name": "최신",
+            "url": "https://www.youtube.com/feed/trending"
+        }
+    },
+    {
+        "model": "wordcloud.category",
+        "pk": "music",
+        "fields": {
+            "name": "음악",
+            "url": "https://www.youtube.com/feed/trending?bp=4gINGgt5dG1hX2NoYXJ0cw%3D%3D"
+        }
+    },
+    {
+        "model": "wordcloud.category",
+        "pk": "game",
+        "fields": {
+            "name": "게임",
+            "url": "https://www.youtube.com/feed/trending?bp=4gIcGhpnYW1pbmdfY29ycHVzX21vc3RfcG9wdWxhcg%3D%3D"
+        }
+    },
+    {
+        "model": "wordcloud.category",
+        "pk": "movie",
+        "fields": {
+            "name": "영화",
+            "url": "https://www.youtube.com/feed/trending?bp=4gIKGgh0cmFpbGVycw%3D%3D"
+        }
+    }
+]

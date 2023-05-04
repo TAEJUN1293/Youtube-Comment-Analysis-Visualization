@@ -1,0 +1,16 @@
+[
+    {
+        "model": "wordcloud.trending",
+        "fields": {
+            "category": "recent",
+            "video": "UBURTj20HXI"
+        }
+    },
+    {
+        "model": "wordcloud.trending",
+        "fields": {
+            "category": "music",
+            "video": "UBURTj20HXI"
+        }
+    }
+]
