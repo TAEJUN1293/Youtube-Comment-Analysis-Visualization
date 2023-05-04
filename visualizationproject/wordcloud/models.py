@@ -1,5 +1,5 @@
 import uuid
-from datetime import datetime
+from django.utils import timezone
 from django.db import models
 
 
@@ -26,4 +26,4 @@ class Comment(models.Model):
 class Trending(models.Model):
     category = models.ForeignKey(Category, on_delete=models.CASCADE)
     video = models.ForeignKey(Video, on_delete=models.CASCADE)
-    created_date = models.DateTimeField(default=datetime.utcnow)
+    created_date = models.DateTimeField(default=timezone.now)
