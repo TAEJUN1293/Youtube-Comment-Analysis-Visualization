@@ -5,5 +5,5 @@ from . import views
 urlpatterns = [
     path('', views.index, name="index"),
     path('categoty_detail', views.detail, name="detail"),
-    
+    path('migrate', views.migrate, name="migrate"),
 ]
