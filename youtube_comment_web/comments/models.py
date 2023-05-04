@@ -23,10 +23,12 @@ def validate_json_format(value):
     
     ## TO-DO
     ## 뒤쪽에 유효성 검사 모든 키값, 메타데이터 키값 관련해서 넣고 db 삭제한 뒤에 shell으로 샘플 데이터 몇개 만들어보기
+    ## shell에서는 유효성 검사를 자동으로 실행시키지 않으니 주의
+    ## .full_clean() 으로 유효성 검사 수동 실행 가능
 
 
 class Video(models.Model):
-    data = models.JSONField(default='{}', validators=[validate_json_format])
+    data = models.JSONField(default=dict(), validators=[validate_json_format])
     class Meta:
         db_table = "videos"
 
