@@ -35,13 +35,14 @@ urls = read_to_json("./urls.json")
 data = {}
 
 for category in ["recent", "music"]:
+    id_start={"recent":101,"music":201}
     '''
     카테고리별로 url 가져오고 이름부여하여 json포맷 맞게 저장함.
     '''
     print("===={}====".format(category))
     url_count = len(urls[category+"_urls"])
 
-    for id, url, img_src in zip(range(101,101+url_count), urls[category+"_urls"], urls[category+"_imgs"]):
+    for id, url, img_src in zip(range(id_start[category],id_start[category]+url_count), urls[category+"_urls"], urls[category+"_imgs"]):
         '''
         한 url(영상하나)에 대해 댓글+기타정보 수집하여
         JSON_FIME_NAME.json에 저장함.
